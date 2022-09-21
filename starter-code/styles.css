@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    
+}
+body{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+}
+header{
+    align-items: center;
+    height: 96px;
+    width: 95vw;
+    margin: 40px 0 0 3vw;
+    display: flex;
+
+}
+#logo{
+    width:45%;
+}
+#menu{
+    width: 55%;
+}
+#nav ul{
+    display: flex;
+    gap: 2vw;
+}
+#nav li{
+    list-style-type: none;
+}
