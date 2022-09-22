@@ -2,4 +2,5 @@
 @import url(../css/base/_base.css);
 @import url(../css/base/_variaveis.css);
 @import url(./componentes/header.css);
+@import url(./componentes/home.css);
 

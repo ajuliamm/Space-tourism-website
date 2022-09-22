@@ -3,13 +3,14 @@
 }
 body{
     background-image: url(../../assets/home/background-home-mobile.jpg);
-    display: flex;
-    flex-direction: column;
-    color:#ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-height: 100vh;
 }
 body,html,a{
     font-family: var(--font-family-p);
-    color: var(--tertiary-color);
+    color: var(--secundary-color);
 }
 .container{
     max-width: 88%;

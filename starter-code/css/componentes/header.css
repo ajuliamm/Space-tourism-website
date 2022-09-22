@@ -52,6 +52,7 @@ header{
     width: 100%;
     text-decoration: none;
     letter-spacing: 2.7px;
+    color: var(--tertiary-color);
     
 }
 .cabecalho__link strong{
