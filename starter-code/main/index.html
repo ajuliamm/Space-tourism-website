@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles.css">
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
-<header>
-  <div id="logo">
-    <img src="../assets/shared/logo.svg" alt="logo">
-  </div>
-  <div id="menu">
-    <nav id="nav">
-      <ul>
-        <li><a href="#"></a><strong>00</strong> HOME</li>
-        <li><a href="#"></a><strong>01</strong> DESTINATION</li>
-        <li><a href="#"></a><strong>02</strong> CREW</li>
-        <li><a href="#"></a><strong>03</strong> TECHNOLOGY</li>
-      </ul>
-    </nav>
-  </div>
-</header>
 
-<main>
-  <div>
-  <h2>So, you want to travel to</h2>
-  <h1>Space</h1>
-  <p>Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-</p>
-</div>
-<div>
- <button>Explore</button> 
- </div>
-</main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+    <header class="container">
+            <img  class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
+            <div></div>
+            
+            <i class="cabecalho__icon"></i>
+            <nav class="cabecalho__navegacao oculto">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>00</strong> HOME
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cabecalho__link" href="#">
+                            <strong>01</strong> DESTINATION
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cabecalho__link" href="#">
+                            <strong>02</strong> CREW
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cabecalho__link" href="#">
+                            <strong>03</strong> TECHNOLOGY
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <div>
+            <h2>So, you want to travel to</h2>
+            <h1>Space</h1>
+            <p>Let's face it; if you want to go to space, you might as well genuinely go to
+                outer space and not hover kind of on the edge of it. Well sit back, and relax
+                because we'll give you a truly out of this world experience!
+            </p>
+        </div>
+        <div>
+            <button>Explore</button>
+        </div>
+    </main>
 </body>
+
 </html>

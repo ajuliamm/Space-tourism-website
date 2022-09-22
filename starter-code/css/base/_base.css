@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    
+}
+body{
+    background-image: url(../../assets/home/background-home-mobile.jpg);
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+}
+.container{
+    max-width: 90%;
+}

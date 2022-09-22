@@ -1,0 +1,24 @@
+header{
+    align-items: center;
+    height: 96px;
+    width: 97vw;
+   
+    display: flex;
+
+}
+.cabecalho__logo{
+   
+}
+.cabecalho__navegacao{
+   
+   
+}
+.cabecalho__lista{
+ 
+}
+.cabecalho__item{
+    list-style-type: none;
+}
+.oculto{
+    display: none;
+}
