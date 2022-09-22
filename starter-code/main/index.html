@@ -18,31 +18,34 @@
             <img  class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
             <div></div>
             
-            <i class="cabecalho__icon"></i>
-            <nav class="cabecalho__navegacao oculto">
-                <ul class="cabecalho__lista">
-                    <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#">
-                            <strong>00</strong> HOME
-                        </a>
-                    </li>
-                    <li>
-                        <a class="cabecalho__link" href="#">
-                            <strong>01</strong> DESTINATION
-                        </a>
-                    </li>
-                    <li>
-                        <a class="cabecalho__link" href="#">
-                            <strong>02</strong> CREW
-                        </a>
-                    </li>
-                    <li>
-                        <a class="cabecalho__link" href="#">
-                            <strong>03</strong> TECHNOLOGY
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <i class="cabecalho__icon--menu" id="menu"></i>
+            <div class="nav-box" id="navBox">
+                <i class="navegacao__icon--close" id="close"></i>
+                <nav class="cabecalho__navegacao">
+                    <ul class="cabecalho__lista">
+                        <li class="cabecalho__item">
+                            <a class="cabecalho__link active" href="#">
+                                <strong>00</strong> HOME
+                            </a>
+                        </li>
+                        <li class="cabecalho__item">
+                            <a class="cabecalho__link" href="#">
+                                <strong>01</strong> DESTINATION
+                            </a>
+                        </li>
+                        <li class="cabecalho__item">
+                            <a class="cabecalho__link" href="#">
+                                <strong>02</strong> CREW
+                            </a>
+                        </li>
+                        <li class="cabecalho__item">
+                            <a class="cabecalho__link" href="#">
+                                <strong>03</strong> TECHNOLOGY
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
     </header>
 
     <main>
@@ -58,6 +61,7 @@
             <button>Explore</button>
         </div>
     </main>
+    <script src="/starter-code/js/menu.js"></script>
 </body>
 
 </html>
