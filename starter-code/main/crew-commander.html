@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+    <header class="container">
+        <img class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
+        <div></div>
+
+        <i class="cabecalho__icon--menu" id="menu"></i>
+        <div class="nav-box oculto" id="navBox">
+            <i class="navegacao__icon--close" id="close"></i>
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link active" href="#">
+                            <strong>00</strong> HOME
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>01</strong> DESTINATION
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>02</strong> CREW
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>03</strong> TECHNOLOGY
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal container">
+        <section class="crew">
+            <h2 class="subtitulo"> <span>02</span> Meet your crew</h2>
+            <div class="img-box">
+                <img src="../assets/crew/image-douglas-hurley.png" alt="" class="crew__img">
+            </div>
+            <div class="inputs-box">
+                <label class="crew__label crew-active" for="equipe"></label><input  name="equipe" type="radio">
+                <label class="crew__label" for="equipe"></label><input name="equipe" type="radio">
+                <label class="crew__label" for="equipe"></label><input name="equipe" type="radio">
+                <label class="crew__label" for="equipe"></label><input name="equipe" type="radio">
+            </div>
+            <div class="description-box">
+                <span class="crew__profissao">Commander</span>
+                <span class="crew__nome"> Douglas Hurley</span>
+                <crew__paragrafo class="paragrafo">
+                    Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
+                    and former NASA astronaut. He launched into space for the third time as
+                    commander of Crew Dragon Demo-2.
+                </crew__paragrafo>
+            </div>
+        </section>
+
+    </main>
+    <script src="/starter-code/js/menu.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -22,6 +22,7 @@
 .subtitulo{
     letter-spacing: 2.75px;
     text-transform: uppercase;
+    color: var(--tertiary-color);
 }
 
 .home__paragrafo, .paragrafo{
