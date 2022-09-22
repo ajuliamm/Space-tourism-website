@@ -3,7 +3,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0;
 }
 .cabecalho__logo{
     height: 40px;

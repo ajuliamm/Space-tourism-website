@@ -4,10 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
-        rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Frontend Mentor | Space tourism website</title>
@@ -15,51 +11,55 @@
 
 <body>
     <header class="container">
-            <img  class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
-            <div></div>
-            
-            <i class="cabecalho__icon--menu" id="menu"></i>
-            <div class="nav-box oculto" id="navBox">
-                <i class="navegacao__icon--close" id="close"></i>
-                <nav class="cabecalho__navegacao">
-                    <ul class="cabecalho__lista">
-                        <li class="cabecalho__item">
-                            <a class="cabecalho__link active" href="#">
-                                <strong>00</strong> HOME
-                            </a>
-                        </li>
-                        <li class="cabecalho__item">
-                            <a class="cabecalho__link" href="#">
-                                <strong>01</strong> DESTINATION
-                            </a>
-                        </li>
-                        <li class="cabecalho__item">
-                            <a class="cabecalho__link" href="#">
-                                <strong>02</strong> CREW
-                            </a>
-                        </li>
-                        <li class="cabecalho__item">
-                            <a class="cabecalho__link" href="#">
-                                <strong>03</strong> TECHNOLOGY
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <img class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
+        <div></div>
+
+        <i class="cabecalho__icon--menu" id="menu"></i>
+        <div class="nav-box oculto" id="navBox">
+            <i class="navegacao__icon--close" id="close"></i>
+            <nav class="cabecalho__navegacao">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link active" href="#">
+                            <strong>00</strong> HOME
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>01</strong> DESTINATION
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>02</strong> CREW
+                        </a>
+                    </li>
+                    <li class="cabecalho__item">
+                        <a class="cabecalho__link" href="#">
+                            <strong>03</strong> TECHNOLOGY
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main class="principal container" >
-        <div class="banner-box">
-            <h2 class="principal__subtitulo">So, you want to travel to</h2>
-            <h1 class="principal__titulo">Space</h1>
-            <p class="principal__paragrafo">Let's face it; if you want to go to space, you might as well genuinely go to
-                outer space and not hover kind of on the edge of it. Well sit back, and relax
-                because we'll give you a truly out of this world experience!
-            </p>
-        </div>
-        
-            <button class="principal__botao">Explore</button>
-        
+    <main class="principal container">
+        <section class="home">
+            
+            <div class="banner-box">
+                <h2 class="home__subtitulo subtitulo">So, you want to travel to</h2>
+                <h1 class="home__titulo">Space</h1>
+                <p class="home__paragrafo">Let's face it; if you want to go to space, you might as well genuinely go to
+                    outer space and not hover kind of on the edge of it. Well sit back, and relax
+                    because we'll give you a truly out of this world experience!
+                </p>
+            </div>
+
+            <button class="home__botao">Explore</button>
+
+        </section>
+
     </main>
     <script src="/starter-code/js/menu.js"></script>
 </body>

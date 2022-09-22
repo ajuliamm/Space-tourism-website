@@ -1,6 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap');
 @import url(../css/base/_base.css);
 @import url(../css/base/_variaveis.css);
 @import url(./componentes/header.css);
 @import url(./componentes/home.css);
-
+@import url(./componentes/destination.css);

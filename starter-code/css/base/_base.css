@@ -10,6 +10,7 @@ body{
 body,html,a{
     font-family: var(--font-family-p);
     color: var(--secundary-color);
+    font-weight: 400;
 }
 .container{
     max-width: 88%;
