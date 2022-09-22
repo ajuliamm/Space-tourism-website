@@ -65,3 +65,50 @@ header{
 .oculto{
     display: none;
 }
+
+@media screen and (min-width: 767px) {
+    header{
+        padding: 0;
+        justify-content: space-between;
+    }
+    header.container{
+        max-width: 100%;
+        margin: 0;
+    }
+    .cabecalho__logo{
+        margin-left: 40px;
+    }
+    .cabecalho__icon--menu{
+        display: none;
+    }
+    .nav-box{
+        position: initial;
+        display: block;
+        height: 100%;
+        padding: 0 40px;
+        width: auto;
+        background-color:  rgba(11, 13, 23, 0.685);
+        backdrop-filter: blur(0px);
+    }
+    .cabecalho__item{
+        margin-bottom: 0;
+    }
+    .navegacao__icon--close{
+        display: none;
+    }
+    .cabecalho__lista{
+        display: flex;
+        gap: 37px;
+    }
+    .cabecalho__link{
+        padding: 40px 0;
+    }
+    .cabecalho__link strong{
+        display: none;
+    }
+    .active{
+        border-right: 0;
+        border-bottom: 4px solid var(--tertiary-color);
+    }
+
+}

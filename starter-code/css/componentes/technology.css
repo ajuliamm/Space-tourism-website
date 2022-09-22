@@ -9,6 +9,7 @@
 
 }
 
+
 .subtitulo span {
     color: var(--secundary-color);
     opacity: .25;
@@ -62,4 +63,14 @@
 .tech__img{
     width: 100vw;
 
+}
+
+@media screen and (min-width:767px) {
+    .tech{
+        margin-top: 40px;
+        gap: 60px;
+    }
+    .subtitulo{
+        align-self: flex-start;
+    }
 }
