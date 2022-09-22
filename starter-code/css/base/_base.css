@@ -13,5 +13,6 @@ body{
     color:#ffffff;
 }
 .container{
-    max-width: 90%;
+    max-width: 88%;
+    margin: 0 auto;
 }
