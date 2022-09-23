@@ -17,25 +17,25 @@
         <i class="cabecalho__icon--menu" id="menu"></i>
         <div class="nav-box oculto" id="navBox">
             <i class="navegacao__icon--close" id="close"></i>
-            <nav class="cabecalho__navegacao">
+            <nav class="cabecalho__navegacao" id="navegacao">
                 <ul class="cabecalho__lista">
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link active" href="#">
+                        <a class="cabecalho__link active" data-link="home" href="#">
                             <strong>00</strong> HOME
                         </a>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#">
+                        <a class="cabecalho__link" href="#" data-link="destination" >
                             <strong>01</strong> DESTINATION
                         </a>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#">
+                        <a class="cabecalho__link" href="# " data-link="crew">
                             <strong>02</strong> CREW
                         </a>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#">
+                        <a class="cabecalho__link" href="#" data-link="tech">
                             <strong>03</strong> TECHNOLOGY
                         </a>
                     </li>
@@ -44,7 +44,7 @@
         </div>
     </header>
 
-    <main class="principal">
+    <main class="principal" id="principal">
         <section class="home container">
             
             <div class="banner-box">
@@ -62,6 +62,7 @@
 
     </main>
     <script src="/starter-code/js/menu.js"></script>
+    <script src="/starter-code/js/main.js"></script>
 </body>
 
 </html>
