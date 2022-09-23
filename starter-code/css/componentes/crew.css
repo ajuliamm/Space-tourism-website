@@ -43,7 +43,7 @@
     margin-top: .75rem;
     margin-bottom: 1rem;
 }
-.crew-active{
+.crew-active.crew__label{
     background-color: var(--tertiary-color);
     opacity: 1;
 }
@@ -80,11 +80,54 @@
 }
 @media screen and (min-width:1024px) {
     .crew{
+       
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: end;
-        min-height: 0;
-        padding-top: 0;
+        padding-top: 7vh;
+        gap: 0;
+        text-align: left;
+        column-gap: 80px;
     }
+    .crew__subtitulo{
+        text-align: left;
+        justify-self: flex-start;
+        font-size: 28px;
+    }
+    .crew__label{
+        height: 15px;
+        width: 15px;
+        opacity: 0.2;
+    }
+    .crew__label:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .img-box{
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+    .crew__profissao{
+        font-size: 32px;
+    }
+    .crew__nome{
+        font-size: 56px;
+    }
+    .crew__paragrafo{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .crew__img{
+        height: 100%;
+    }
+    .description-box{
+        width: 100%;
+    }
+    .crew__inputs-box,.description-box{
+        align-self: center;
+        justify-self: flex-start;
+    }
+  
+
 }

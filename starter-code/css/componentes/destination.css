@@ -172,6 +172,9 @@ hr {
     .destination__link{
         font-size: 16px;
     }
+    .destination__link:hover{
+        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    }
     .destination__paragrafo{
         font-size: 18px;
         margin-bottom: 35px;

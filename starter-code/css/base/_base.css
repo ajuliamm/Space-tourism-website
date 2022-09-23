@@ -44,11 +44,12 @@ a {
 
     .principal {
         display: flex;
-        min-height: 85vh;
+        min-height: 72vh;
         flex-direction: column;
         justify-content: center;
     }
     body{
         background-image: url(../../assets/home/background-home-desktop.jpg);
+        min-height: 0;
     }
 }
