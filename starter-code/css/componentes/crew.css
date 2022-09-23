@@ -47,3 +47,26 @@
     background-color: var(--tertiary-color);
     opacity: 1;
 }
+
+@media screen and (min-width: 767px) {
+    .crew{
+        display:grid;
+        grid-template-areas: "subtitulo"
+                            "description"
+                            "input"
+                            "img";
+    }
+    .subtitulo{
+        grid-area: subtitulo;
+    }
+    .inputs-box{
+        grid-area: input;
+    }
+    .description-box{
+        grid-area: description;
+    }
+    .img-box{
+        grid-area: img;
+    }
+    
+}
