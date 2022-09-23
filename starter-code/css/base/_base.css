@@ -1,29 +1,54 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url(../../assets/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
 }
-body,html,a{
+
+body,
+html,
+a {
     font-family: var(--font-family-p);
     color: var(--secundary-color);
     font-weight: 400;
 }
-.container{
+
+.container {
     max-width: 88%;
     margin: 0 auto;
 }
-.subtitulo{
+
+.subtitulo {
     letter-spacing: 2.75px;
     text-transform: uppercase;
     color: var(--tertiary-color);
 }
 
 @media screen and(min-width:767px) {
-    .subtitulo{
+    .subtitulo {
         font-size: 20px;
+    }
+    body{
+        background-image: url(../../assets/home/background-home-tablet.jpg);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 78%;
+    }
+
+    .principal {
+        display: flex;
+        min-height: 85vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    body{
+        background-image: url(../../assets/home/background-home-desktop.jpg);
     }
 }

@@ -98,3 +98,15 @@
         width: 68%;
     }
 }
+
+
+@media screen and (min-width:1024px) {
+    .tech{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: end;
+        min-height: 0;
+        padding-top: 0;
+    }
+}

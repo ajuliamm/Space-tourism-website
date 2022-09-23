@@ -70,3 +70,38 @@
 
     
 }
+
+@media screen and (min-width:1024px) {
+    .home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: end;
+        min-height: 0;
+        padding-top: 0;
+    }
+    .banner-box{
+        justify-self: start;
+        text-align: left;
+        width: 450px;
+    }
+    .home__botao{
+        justify-self: end;
+        height: 274px;
+        width: 274px;
+    }
+    .home__subtitulo{
+        align-self: flex-start;
+        letter-spacing: 4.72px;
+        font-size: 28px;
+    }
+    .home__paragrafo{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .home__botao:hover{
+        box-shadow: 0 0 0 88px rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+    }
+    
+}
