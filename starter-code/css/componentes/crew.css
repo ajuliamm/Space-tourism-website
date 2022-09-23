@@ -18,7 +18,7 @@
     width: 100%;
     border-bottom: 1px solid #383B4B;
 }
-.inputs-box input{
+.crew__inputs-box input{
     display: none;
 }
 .crew__label{
@@ -50,23 +50,31 @@
 
 @media screen and (min-width: 767px) {
     .crew{
-        display:grid;
-        grid-template-areas: "subtitulo"
-                            "description"
-                            "input"
-                            "img";
-    }
-    .subtitulo{
-        grid-area: subtitulo;
-    }
-    .inputs-box{
-        grid-area: input;
-    }
-    .description-box{
-        grid-area: description;
+        padding-bottom: 0;
+        padding-top: 40px;
     }
     .img-box{
-        grid-area: img;
+        order: 2;
+        border-bottom: none;
+        
+    }
+    .crew__img{
+        height:55vh ;
+    }
+    .crew__inputs-box{
+        order: 1;
+    }
+    .description-box{
+        width:55% ;
+    }
+    .crew__nome{
+        font-size: 40px;
+    }
+    .crew__profissao{
+        font-size: 24px;
+    }
+    .crew__subtitulo{
+        align-self: flex-start;
     }
     
 }

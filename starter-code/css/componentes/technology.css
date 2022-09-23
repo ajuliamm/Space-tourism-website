@@ -16,10 +16,10 @@
     font-weight: 700;
 }
 
-.inputs-box input {
+.tech__inputs-box input {
     display: none;
 }
-.inputs-box{
+.tech__inputs-box{
     display: flex;
 }
 .tech__label {
@@ -44,11 +44,11 @@
     display: block;
     text-transform: uppercase;
 }
-.tech__nome{
-    font-family: var(--font-family-titulo);
+.tech__terminologia{
+    letter-spacing: 2.36px;
 }
-
-.tech__nome {
+.tech__termo {
+    font-family: var(--font-family-titulo);
     font-size: 24px;
     color: var(--tertiary-color);
     margin-top: .75rem;
@@ -67,10 +67,34 @@
 
 @media screen and (min-width:767px) {
     .tech{
-        margin-top: 40px;
-        gap: 60px;
+        padding-top: 40px;
+        gap: 0px;
+        padding-bottom: 97px;
     }
-    .subtitulo{
+    .tech__img{
+        margin-top: 3.75rem;
+        margin-bottom: 3.5rem;
+    }
+    .tech__label{
+        height: 60px;
+        width: 60px;
+        font-size: 1.5rem;
+    }
+    .tech__inputs-box{
+        margin-bottom: 2.75rem;
+    }
+    .tech__termo{
+        font-size: 40px;
+    
+    }
+    .tech__terminologia{
+        letter-spacing: 2.7px;
+    }
+   
+    .tech__subtitulo{
         align-self: flex-start;
+    }
+    .techDescription-box{
+        width: 68%;
     }
 }

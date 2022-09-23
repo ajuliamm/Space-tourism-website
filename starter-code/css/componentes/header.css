@@ -87,7 +87,7 @@ header{
         height: 100%;
         padding: 0 40px;
         width: auto;
-        background-color:  rgba(11, 13, 23, 0.685);
+        background-color:  #191D27;
         backdrop-filter: blur(0px);
     }
     .cabecalho__item{
@@ -102,6 +102,7 @@ header{
     }
     .cabecalho__link{
         padding: 40px 0;
+        border-bottom: 4px solid transparent;
     }
     .cabecalho__link strong{
         display: none;
