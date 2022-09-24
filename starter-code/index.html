@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Frontend Mentor | Space tourism website</title>
 </head>
 
-<body>
+<body class="home_bkg">
     <header class="container">
-        <img class="cabecalho__logo" src="../assets/shared/logo.svg" alt="logo">
+        <img class="cabecalho__logo" src="./assets/shared/logo.svg" alt="logo">
         <div></div>
 
         <i class="cabecalho__icon--menu" id="menu"></i>
@@ -20,24 +20,24 @@
             <nav class="cabecalho__navegacao" id="navegacao">
                 <ul class="cabecalho__lista">
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link active" data-link="home" href="#">
+                        <span class="cabecalho__link active" data-link="home" >
                             <strong>00</strong> HOME
-                        </a>
+                        </span>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#" data-link="destination" >
+                        <span class="cabecalho__link" data-link="destination" >
                             <strong>01</strong> DESTINATION
-                        </a>
+                        </span>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="# " data-link="crew">
+                        <span class="cabecalho__link"  data-link="crew">
                             <strong>02</strong> CREW
-                        </a>
+                        </span>
                     </li>
                     <li class="cabecalho__item">
-                        <a class="cabecalho__link" href="#" data-link="tech">
+                        <span class="cabecalho__link" data-link="tech">
                             <strong>03</strong> TECHNOLOGY
-                        </a>
+                        </span>
                     </li>
                 </ul>
             </nav>
@@ -56,13 +56,17 @@
                 </p>
             </div>
 
-            <button class="home__botao">Explore</button>
+            <button id="explore" class="home__botao">Explore</button>
 
         </section>
 
     </main>
-    <script src="/starter-code/js/menu.js"></script>
-    <script src="/starter-code/js/main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/destination.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/crew.js"></script>
+    <script src="./js/tech.js"></script>
 </body>
 
 </html>
