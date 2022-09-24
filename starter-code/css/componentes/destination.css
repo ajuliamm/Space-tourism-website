@@ -145,7 +145,7 @@ hr {
         min-height: 0;
          padding-top: 62px;
         gap: 157px;
-        grid-template-rows:472px;
+        
     }
 
     .destination__subtitle {
@@ -160,7 +160,7 @@ hr {
 
     .box-nav-text {
         text-align: left;
-        height: 100%;
+        height: 472px;
     }
 
     .info_container {
