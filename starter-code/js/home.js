@@ -18,15 +18,21 @@ function exibeHome() {
         
         `
     principal.innerHTML = template;
+    
+    document.querySelector("#explore").addEventListener('click', botaoExplore);
 }
 
-document.querySelector("#explore").addEventListener('click', ()=>{
-   let body = document.querySelector('body');
-   let links = document.querySelectorAll('.cabecalho__link'); 
-   exbibeDestination();
+
+document.querySelector("#explore").addEventListener('click', botaoExplore);
+
+function botaoExplore() {
+    let body = document.querySelector('body');
+    let links = document.querySelectorAll('.cabecalho__link');
+    exbibeDestination();
     links[1].classList.toggle('active');
+    links[0].classList.toggle('active');
     body.classList.add('destination_bkg');
     body.classList.remove('crew_bkg');
     body.classList.remove('tech_bkg');
     body.classList.remove('home_bkg');
-})
+}

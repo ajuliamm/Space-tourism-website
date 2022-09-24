@@ -6,11 +6,11 @@ function exibeTech() {
                         <section class="tech container">
                         <h2 class="tech__subtitulo subtitulo"> <span>02</span> Meet your crew</h2>
                 
-                        <img id="techImg" src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="" class="tech__img">
+                        <img id="techImg" src="./assets/technology/image-launch-vehicle-${window.screen.width < 767 ?"landscape":"portrait"}.jpg" alt="" class="tech__img">
                 
                         <div id="techInputs" class="tech__inputs-box">
                         
-                        <label class="tech__label tech-active" for="tech_0">1</label>
+                        <label class="tech__label tech-active" for="tech_0">1</label> 
                         <input name="tech" type="radio" data-input="tech" id="tech_0" value="0">
                         
                         <label class="tech__label" for="tech_1">2</label>
