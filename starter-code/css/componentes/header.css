@@ -5,6 +5,9 @@ header{
     width: 100%;
     padding: 1.5rem 0;
 }
+.linha{
+    display: none;
+}
 .cabecalho__logo{
     height: 40px;
     width: 40px;
@@ -139,5 +142,13 @@ header{
     .cabecalho__link:hover{
         cursor: pointer;
         border-bottom: solid 3px rgba(255, 255, 255, 0.5) ;
+    }
+    .linha{
+        display: block;
+        position: absolute;
+        border-color:rgba(255, 255, 255, 0.5);
+        width: 33%;
+        left: 11%;
+        z-index: 1;
     }
 }

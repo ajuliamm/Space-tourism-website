@@ -31,6 +31,9 @@ navigation.addEventListener('click', (e) => {
         body.classList.remove('destination_bkg');
         body.classList.remove('tech_bkg');
         exibeHome();
+        if(window.screen.width < 767){
+            navBox.classList.toggle('oculto');
+        }
 
     } else if (e.target.dataset.link === 'destination') {
 
@@ -45,7 +48,9 @@ navigation.addEventListener('click', (e) => {
         body.classList.remove('crew_bkg');
         body.classList.remove('tech_bkg');
         body.classList.remove('home_bkg');
-
+        if(window.screen.width < 767){
+            navBox.classList.toggle('oculto');
+        }
 
     } else if (e.target.dataset.link === 'crew') {
 
@@ -60,6 +65,10 @@ navigation.addEventListener('click', (e) => {
         body.classList.remove('destination_bkg');
         body.classList.remove('tech_bkg');
         body.classList.remove('home_bkg');
+       
+        if(window.screen.width < 767){
+            navBox.classList.toggle('oculto');
+        }
 
     } else if (e.target.dataset.link === 'tech') {
 
@@ -74,6 +83,10 @@ navigation.addEventListener('click', (e) => {
         body.classList.remove('crew_bkg');
         body.classList.remove('destination_bkg');
         body.classList.remove('home_bkg');
+
+        if(window.screen.width < 767){
+            navBox.classList.toggle('oculto');
+        }
     }
 
 })
