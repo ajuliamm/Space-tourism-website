@@ -3,10 +3,7 @@ var dados
 fetch('./data.json')
     .then(response => response.json())
     .then(data => {
-
-
         dados = data
-        console.log(dados)
     })
 
 
